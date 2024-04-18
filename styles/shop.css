@@ -63,5 +63,6 @@
 }
 .writeup-div{
     display: flex;
+    flex-direction: left;
     background-color: aqua;
 }
