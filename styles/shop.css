@@ -9,12 +9,17 @@
     margin-top: 70px;
     font-family: 'Times New Roman', Times, serif;
 }
+.main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 60px;
+    gap: 25px;
+    margin-left: 50px;
+}
 .product-main{
     display: flex;
     flex-direction: column;
     height: 900px;
-    margin-top: 40px;
-    width: 75%;
 }
 .product-div1{
     display: grid;
@@ -62,7 +67,17 @@
     background-size: cover;
 }
 .writeup-div{
-    display: flex;
-    flex-direction: left;
-    background-color: aqua;
+    display: grid;
+}
+.categories h1{
+    font-size: 24px;
+}
+.tags h1{
+    font-size: 24px;
+}
+.brands h1{
+    font-size: 24px;
+}
+.price h1{
+    font-size: 24px;
 }
