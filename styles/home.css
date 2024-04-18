@@ -1,0 +1,171 @@
+h1 {
+  font-weight: 300;
+  font-size: 68px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+h2 {
+  font-weight: 500;
+  font-size: 32px;
+}
+h3 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+H4 {
+  font-weight: 400;
+}
+p {
+  color: #aeaeae;
+}
+.products,
+.blogs,
+.newsletter-container,
+.testimonials,
+.services {
+  padding: 80px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.title a {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.title a:hover {
+  text-decoration: none;
+}
+
+/* Header */
+header,
+.sales {
+  position: relative;
+  background-color: #edf1f3;
+  padding: 0 80px;
+  height: 80vh;
+}
+
+.header-text {
+  padding-top: 10%;
+}
+
+.banner-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Services */
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding-bottom: 0px;
+}
+
+.services h3 {
+  margin-bottom: 10px;
+}
+
+.services p {
+  line-height: 25px;
+}
+.service-item {
+  display: flex;
+}
+.service-item i {
+  margin-right: 15px;
+  color: #71adc8;
+  font-size: 24px;
+}
+
+/* Products */
+.product-items-container {
+  display: flex;
+  justify-content: space-between;
+}
+.product-item-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.product-price {
+  color: #71adc8;
+}
+
+/* Sales */
+.sales {
+  display: flex;
+  align-items: center;
+}
+.sales-text {
+  margin-left: 10%;
+}
+
+/* Blogs */
+.blog-items-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.blogs img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.blogs h3:hover {
+  color: #71adc8;
+  cursor: pointer;
+}
+
+/* testimonials */
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonials h2 {
+  max-width: 70%;
+  text-align: center;
+  font-weight: 300;
+}
+.testimonials div {
+  gap: 20px;
+  margin-top: 20px;
+}
+.testimonials i {
+  color: #71adc8;
+}
+
+/* newsletter */
+.newsletter-container {
+  padding-top: 0;
+  padding-bottom: 0px;
+}
+.newsletter {
+  background-color: #212529;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+.newsletter h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+.newsletter-input {
+  display: flex;
+  height: 50px;
+  width: 40%;
+  align-self: flex-end;
+}
+.newsletter-input input {
+  width: 100%;
+  outline: none;
+  padding: 0 20px;
+}
+.btn-secondary {
+  background-color: #71adc8;
+}
