@@ -1,0 +1,83 @@
+.shop-banner{
+    display: flex;
+    background-color: #80808052;
+    height: 250px;
+    justify-content: center;
+}
+.shop-banner h1{
+    font-size: 48px;
+    margin-top: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 60px;
+    gap: 25px;
+    margin-left: 50px;
+}
+.product-main{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+}
+.product-div1{
+    display: grid;
+    height: 400px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.price-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50px;
+    gap: 15px;
+}
+.price-div h1{
+    font-size: 20px;
+}
+.item1{
+    background-image: url(../images/product-item1.jpg);
+    background-size: cover;
+}
+.item2{
+    background-image: url(../images/product-item2.jpg);
+    background-size: cover;
+}
+.item3{
+    background-image: url(../images/product-item3.jpg);
+    background-size: cover;
+}
+.product-div2{
+    display: grid;
+    height: 400px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.item4{
+    background-image: url(../images/product-item4.jpg);
+    background-size: cover;
+}
+.item5{
+    background-image: url(../images/product-item5.jpg);
+    background-size: cover;
+}
+.item6{
+    background-image: url(../images/product-item6.jpg);
+    background-size: cover;
+}
+.writeup-div{
+    display: grid;
+}
+.categories h1{
+    font-size: 24px;
+}
+.tags h1{
+    font-size: 24px;
+}
+.brands h1{
+    font-size: 24px;
+}
+.price h1{
+    font-size: 24px;
+}
