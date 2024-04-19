@@ -57,6 +57,9 @@ header,
   bottom: 0;
   right: 0;
 }
+.banner-img img {
+  height: 600px;
+}
 
 /* Services */
 .services {
@@ -103,6 +106,9 @@ header,
 }
 .sales-text {
   margin-left: 10%;
+}
+.sales img {
+  height: 500px;
 }
 
 /* Blogs */
