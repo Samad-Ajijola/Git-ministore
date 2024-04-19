@@ -1,0 +1,41 @@
+body{
+    margin: 20px 20px 20px 20px;
+}
+.text-container1{
+    background-image: url(../images/education.jpg);
+    background-position: relative;
+    background-color: blanchedalmond;
+    height: 200px;
+    
+    
+    
+}
+.text1{
+    padding-top: 20px;
+    color: white;
+    justify-content: center;
+    display: grid;
+}
+
+.text2{
+    text-align: center;
+
+}
+.column {
+    padding-right: 10px;
+    float: left;
+    justify-items: space-between;
+    width: 33.33%;
+    padding: 20px;
+    height: 400px; 
+  }
+  .column-h2-p{
+    justify-content: center;
+    font-size: 30px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
