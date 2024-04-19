@@ -19,11 +19,11 @@ button {
 a {
   text-decoration: none;
   outline: none;
-  cursor: pointer;
 }
 
 li {
   list-style: none;
+  cursor: pointer;
 }
 
 nav {
@@ -33,6 +33,7 @@ nav {
   background-color: #f8f9fa;
   height: 10vh;
   padding: 0 40px;
+  z-index: 99;
 }
 
 nav ul {
